@@ -1,0 +1,1 @@
+export default function AuthCard({children}){return <section className="card">{children}</section>}

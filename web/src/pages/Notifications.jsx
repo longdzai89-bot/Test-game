@@ -1,0 +1,1 @@
+export default function Notifications(){return <section><h1>Notifications</h1><p>Giao diện Notifications sẵn sàng kết nối API.</p></section>}

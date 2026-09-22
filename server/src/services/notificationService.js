@@ -1,0 +1,1 @@
+const Notification=require("../models/Notification");const list=userId=>Notification.find({userId}).sort({createdAt:-1});module.exports={list};

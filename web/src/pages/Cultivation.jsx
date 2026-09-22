@@ -1,0 +1,1 @@
+export default function Cultivation(){return <section><h1>Cultivation</h1><p>Giao diện Cultivation sẵn sàng kết nối API.</p></section>}

@@ -1,0 +1,1 @@
+exports.parse=(v,d={})=>{try{return JSON.parse(v)}catch{return d}};exports.stringify=v=>JSON.stringify(v);

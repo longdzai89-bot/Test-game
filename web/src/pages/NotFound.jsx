@@ -1,0 +1,1 @@
+export default function NotFound(){return <section><h1>NotFound</h1><p>Giao diện NotFound sẵn sàng kết nối API.</p></section>}

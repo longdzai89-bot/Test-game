@@ -1,0 +1,1 @@
+import {Card} from "antd";export default function Dashboard(){return <Card title="Admin · Dashboard"><p>Quản trị Dashboard.</p></Card>}

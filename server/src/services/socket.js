@@ -1,0 +1,3 @@
+const {Server}=require("socket.io"); const {verify}=require("../utils/jwt"); const User=require("../models/User"); const {setIO}=require("./broadcast");
+function initSocket(httpServer){const io=new Server(httpServer,{cors:{origin:"*"}});setIO(io);io.on("connection",socket=>{try{const token=socket.handshake.auth?.token;if(token){const p=verify(token);socket.userId=p.sub;socket.join(String(p.sub));}}catch{} socket.on("chat",msg=>io.emit("chat",{userId:socket.userId,message:String(msg||"").slice(0,500)}));});setInterval(()=>io.emit("cultivation_tick",{at:Date.now()}),1000);return io;}
+module.exports={initSocket};

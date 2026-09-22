@@ -1,0 +1,1 @@
+export default function Sect(){return <section><h1>Sect</h1><p>Giao diện Sect sẵn sàng kết nối API.</p></section>}

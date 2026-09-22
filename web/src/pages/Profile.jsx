@@ -1,0 +1,1 @@
+export default function Profile(){return <section><h1>Profile</h1><p>Giao diện Profile sẵn sàng kết nối API.</p></section>}

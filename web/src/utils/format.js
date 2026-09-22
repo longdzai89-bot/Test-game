@@ -1,0 +1,1 @@
+export const formatNumber=n=>new Intl.NumberFormat("vi-VN").format(n||0);export const formatTime=s=>`${Math.floor(s/60)}m ${s%60}s`;export const formatDate=x=>new Date(x).toLocaleString("vi-VN");

@@ -1,0 +1,1 @@
+export default function Ranking(){return <section><h1>Ranking</h1><p>Giao diện Ranking sẵn sàng kết nối API.</p></section>}

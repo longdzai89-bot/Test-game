@@ -1,0 +1,32 @@
+{
+  "name": "@theanhh/server",
+  "version": "1.0.0",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "dev": "node --watch src/index.js",
+    "start": "node src/index.js",
+    "seed": "node src/cli/seed.js",
+    "migrate": "node src/cli/migrate.js"
+  },
+  "dependencies": {
+    "archiver": "^7.0.1",
+    "bcryptjs": "^3.0.3",
+    "chalk": "^4.1.2",
+    "cli-table3": "^0.6.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "express-rate-limit": "^7.4.1",
+    "firebase-admin": "^12.5.0",
+    "fs-extra": "^11.2.0",
+    "inquirer": "^8.2.6",
+    "jimp": "^0.22.12",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.7.0",
+    "node-cron": "^3.0.3",
+    "nodemailer": "^6.9.15",
+    "ora": "^5.4.1",
+    "socket.io": "^4.8.0",
+    "winston": "^3.15.0"
+  }
+}

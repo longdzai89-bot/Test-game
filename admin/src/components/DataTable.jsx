@@ -1,0 +1,1 @@
+export default function DataTable(props){return <div>{props.children}</div>}

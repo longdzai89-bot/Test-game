@@ -1,0 +1,282 @@
+[
+  {
+    "id": "skill_kiếm_1",
+    "name": "Kiếm Quyết 1",
+    "type": "kiếm",
+    "mpCost": 10,
+    "cooldown": 1,
+    "effect": {
+      "type": "damage",
+      "value": 20,
+      "duration": 1
+    },
+    "realmRequired": 1,
+    "description": "Kỹ năng kiếm cấp 1."
+  },
+  {
+    "id": "skill_kiếm_2",
+    "name": "Kiếm Quyết 2",
+    "type": "kiếm",
+    "mpCost": 20,
+    "cooldown": 2,
+    "effect": {
+      "type": "damage",
+      "value": 40,
+      "duration": 2
+    },
+    "realmRequired": 2,
+    "description": "Kỹ năng kiếm cấp 2."
+  },
+  {
+    "id": "skill_kiếm_3",
+    "name": "Kiếm Quyết 3",
+    "type": "kiếm",
+    "mpCost": 30,
+    "cooldown": 3,
+    "effect": {
+      "type": "damage",
+      "value": 60,
+      "duration": 3
+    },
+    "realmRequired": 3,
+    "description": "Kỹ năng kiếm cấp 3."
+  },
+  {
+    "id": "skill_kiếm_4",
+    "name": "Kiếm Quyết 4",
+    "type": "kiếm",
+    "mpCost": 40,
+    "cooldown": 4,
+    "effect": {
+      "type": "damage",
+      "value": 80,
+      "duration": 4
+    },
+    "realmRequired": 4,
+    "description": "Kỹ năng kiếm cấp 4."
+  },
+  {
+    "id": "skill_kiếm_5",
+    "name": "Kiếm Quyết 5",
+    "type": "kiếm",
+    "mpCost": 50,
+    "cooldown": 5,
+    "effect": {
+      "type": "damage",
+      "value": 100,
+      "duration": 5
+    },
+    "realmRequired": 5,
+    "description": "Kỹ năng kiếm cấp 5."
+  },
+  {
+    "id": "skill_phép_1",
+    "name": "Pháp Quyết 1",
+    "type": "phép",
+    "mpCost": 10,
+    "cooldown": 1,
+    "effect": {
+      "type": "damage",
+      "value": 20,
+      "duration": 1
+    },
+    "realmRequired": 1,
+    "description": "Kỹ năng phép cấp 1."
+  },
+  {
+    "id": "skill_phép_2",
+    "name": "Pháp Quyết 2",
+    "type": "phép",
+    "mpCost": 20,
+    "cooldown": 2,
+    "effect": {
+      "type": "damage",
+      "value": 40,
+      "duration": 2
+    },
+    "realmRequired": 2,
+    "description": "Kỹ năng phép cấp 2."
+  },
+  {
+    "id": "skill_phép_3",
+    "name": "Pháp Quyết 3",
+    "type": "phép",
+    "mpCost": 30,
+    "cooldown": 3,
+    "effect": {
+      "type": "damage",
+      "value": 60,
+      "duration": 3
+    },
+    "realmRequired": 3,
+    "description": "Kỹ năng phép cấp 3."
+  },
+  {
+    "id": "skill_phép_4",
+    "name": "Pháp Quyết 4",
+    "type": "phép",
+    "mpCost": 40,
+    "cooldown": 4,
+    "effect": {
+      "type": "damage",
+      "value": 80,
+      "duration": 4
+    },
+    "realmRequired": 4,
+    "description": "Kỹ năng phép cấp 4."
+  },
+  {
+    "id": "skill_phép_5",
+    "name": "Pháp Quyết 5",
+    "type": "phép",
+    "mpCost": 50,
+    "cooldown": 5,
+    "effect": {
+      "type": "damage",
+      "value": 100,
+      "duration": 5
+    },
+    "realmRequired": 5,
+    "description": "Kỹ năng phép cấp 5."
+  },
+  {
+    "id": "skill_thủ_1",
+    "name": "Hộ Quyết 1",
+    "type": "thủ",
+    "mpCost": 10,
+    "cooldown": 1,
+    "effect": {
+      "type": "buff",
+      "value": 20,
+      "duration": 1
+    },
+    "realmRequired": 1,
+    "description": "Kỹ năng thủ cấp 1."
+  },
+  {
+    "id": "skill_thủ_2",
+    "name": "Hộ Quyết 2",
+    "type": "thủ",
+    "mpCost": 20,
+    "cooldown": 2,
+    "effect": {
+      "type": "buff",
+      "value": 40,
+      "duration": 2
+    },
+    "realmRequired": 2,
+    "description": "Kỹ năng thủ cấp 2."
+  },
+  {
+    "id": "skill_thủ_3",
+    "name": "Hộ Quyết 3",
+    "type": "thủ",
+    "mpCost": 30,
+    "cooldown": 3,
+    "effect": {
+      "type": "buff",
+      "value": 60,
+      "duration": 3
+    },
+    "realmRequired": 3,
+    "description": "Kỹ năng thủ cấp 3."
+  },
+  {
+    "id": "skill_thủ_4",
+    "name": "Hộ Quyết 4",
+    "type": "thủ",
+    "mpCost": 40,
+    "cooldown": 4,
+    "effect": {
+      "type": "buff",
+      "value": 80,
+      "duration": 4
+    },
+    "realmRequired": 4,
+    "description": "Kỹ năng thủ cấp 4."
+  },
+  {
+    "id": "skill_thủ_5",
+    "name": "Hộ Quyết 5",
+    "type": "thủ",
+    "mpCost": 50,
+    "cooldown": 5,
+    "effect": {
+      "type": "buff",
+      "value": 100,
+      "duration": 5
+    },
+    "realmRequired": 5,
+    "description": "Kỹ năng thủ cấp 5."
+  },
+  {
+    "id": "skill_hồi_1",
+    "name": "Sinh Quyết 1",
+    "type": "hồi",
+    "mpCost": 10,
+    "cooldown": 1,
+    "effect": {
+      "type": "heal",
+      "value": 20,
+      "duration": 1
+    },
+    "realmRequired": 1,
+    "description": "Kỹ năng hồi cấp 1."
+  },
+  {
+    "id": "skill_hồi_2",
+    "name": "Sinh Quyết 2",
+    "type": "hồi",
+    "mpCost": 20,
+    "cooldown": 2,
+    "effect": {
+      "type": "heal",
+      "value": 40,
+      "duration": 2
+    },
+    "realmRequired": 2,
+    "description": "Kỹ năng hồi cấp 2."
+  },
+  {
+    "id": "skill_hồi_3",
+    "name": "Sinh Quyết 3",
+    "type": "hồi",
+    "mpCost": 30,
+    "cooldown": 3,
+    "effect": {
+      "type": "heal",
+      "value": 60,
+      "duration": 3
+    },
+    "realmRequired": 3,
+    "description": "Kỹ năng hồi cấp 3."
+  },
+  {
+    "id": "skill_hồi_4",
+    "name": "Sinh Quyết 4",
+    "type": "hồi",
+    "mpCost": 40,
+    "cooldown": 4,
+    "effect": {
+      "type": "heal",
+      "value": 80,
+      "duration": 4
+    },
+    "realmRequired": 4,
+    "description": "Kỹ năng hồi cấp 4."
+  },
+  {
+    "id": "skill_hồi_5",
+    "name": "Sinh Quyết 5",
+    "type": "hồi",
+    "mpCost": 50,
+    "cooldown": 5,
+    "effect": {
+      "type": "heal",
+      "value": 100,
+      "duration": 5
+    },
+    "realmRequired": 5,
+    "description": "Kỹ năng hồi cấp 5."
+  }
+]

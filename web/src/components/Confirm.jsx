@@ -1,0 +1,1 @@
+export default function Confirm({children}){return <div>{children}</div>}

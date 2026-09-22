@@ -1,0 +1,1 @@
+import {Card} from "antd";export default function ServerControl(){return <Card title="Admin · ServerControl"><p>Quản trị ServerControl.</p></Card>}

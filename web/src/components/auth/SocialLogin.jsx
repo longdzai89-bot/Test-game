@@ -1,0 +1,1 @@
+export default function SocialLogin(){return <div style={{display:'flex',gap:8}}><button>Google</button><button>Facebook</button><button>Discord</button></div>}

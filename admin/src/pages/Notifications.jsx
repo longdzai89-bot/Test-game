@@ -1,0 +1,1 @@
+import {Card} from "antd";export default function Notifications(){return <Card title="Admin · Notifications"><p>Quản trị Notifications.</p></Card>}

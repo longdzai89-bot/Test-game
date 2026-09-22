@@ -1,0 +1,1 @@
+export default function LogViewer(props){return <div>{props.children}</div>}

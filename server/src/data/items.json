@@ -1,0 +1,962 @@
+[
+  {
+    "id": "item_001",
+    "name": "Weapon 1",
+    "type": "weapon",
+    "rarity": "common",
+    "stats": {
+      "atk": 1,
+      "def": 0,
+      "hp": 0,
+      "mp": 0,
+      "spd": 1
+    },
+    "description": "Vật phẩm weapon dùng trong tu tiên.",
+    "sellPrice": 10,
+    "dropRate": 0.2
+  },
+  {
+    "id": "item_002",
+    "name": "Weapon 2",
+    "type": "weapon",
+    "rarity": "common",
+    "stats": {
+      "atk": 2,
+      "def": 0,
+      "hp": 0,
+      "mp": 0,
+      "spd": 2
+    },
+    "description": "Vật phẩm weapon dùng trong tu tiên.",
+    "sellPrice": 20,
+    "dropRate": 0.1
+  },
+  {
+    "id": "item_003",
+    "name": "Weapon 3",
+    "type": "weapon",
+    "rarity": "common",
+    "stats": {
+      "atk": 3,
+      "def": 0,
+      "hp": 0,
+      "mp": 0,
+      "spd": 3
+    },
+    "description": "Vật phẩm weapon dùng trong tu tiên.",
+    "sellPrice": 30,
+    "dropRate": 0.06666666666666667
+  },
+  {
+    "id": "item_004",
+    "name": "Weapon 4",
+    "type": "weapon",
+    "rarity": "rare",
+    "stats": {
+      "atk": 4,
+      "def": 0,
+      "hp": 0,
+      "mp": 0,
+      "spd": 4
+    },
+    "description": "Vật phẩm weapon dùng trong tu tiên.",
+    "sellPrice": 40,
+    "dropRate": 0.05
+  },
+  {
+    "id": "item_005",
+    "name": "Weapon 5",
+    "type": "weapon",
+    "rarity": "rare",
+    "stats": {
+      "atk": 5,
+      "def": 0,
+      "hp": 0,
+      "mp": 0,
+      "spd": 5
+    },
+    "description": "Vật phẩm weapon dùng trong tu tiên.",
+    "sellPrice": 50,
+    "dropRate": 0.04
+  },
+  {
+    "id": "item_006",
+    "name": "Weapon 6",
+    "type": "weapon",
+    "rarity": "rare",
+    "stats": {
+      "atk": 6,
+      "def": 0,
+      "hp": 0,
+      "mp": 0,
+      "spd": 6
+    },
+    "description": "Vật phẩm weapon dùng trong tu tiên.",
+    "sellPrice": 60,
+    "dropRate": 0.03333333333333333
+  },
+  {
+    "id": "item_007",
+    "name": "Weapon 7",
+    "type": "weapon",
+    "rarity": "epic",
+    "stats": {
+      "atk": 7,
+      "def": 0,
+      "hp": 0,
+      "mp": 0,
+      "spd": 0
+    },
+    "description": "Vật phẩm weapon dùng trong tu tiên.",
+    "sellPrice": 70,
+    "dropRate": 0.028571428571428574
+  },
+  {
+    "id": "item_008",
+    "name": "Weapon 8",
+    "type": "weapon",
+    "rarity": "epic",
+    "stats": {
+      "atk": 8,
+      "def": 0,
+      "hp": 0,
+      "mp": 0,
+      "spd": 1
+    },
+    "description": "Vật phẩm weapon dùng trong tu tiên.",
+    "sellPrice": 80,
+    "dropRate": 0.025
+  },
+  {
+    "id": "item_009",
+    "name": "Weapon 9",
+    "type": "weapon",
+    "rarity": "epic",
+    "stats": {
+      "atk": 9,
+      "def": 0,
+      "hp": 0,
+      "mp": 0,
+      "spd": 2
+    },
+    "description": "Vật phẩm weapon dùng trong tu tiên.",
+    "sellPrice": 90,
+    "dropRate": 0.022222222222222223
+  },
+  {
+    "id": "item_010",
+    "name": "Weapon 10",
+    "type": "weapon",
+    "rarity": "legendary",
+    "stats": {
+      "atk": 10,
+      "def": 0,
+      "hp": 0,
+      "mp": 0,
+      "spd": 3
+    },
+    "description": "Vật phẩm weapon dùng trong tu tiên.",
+    "sellPrice": 100,
+    "dropRate": 0.02
+  },
+  {
+    "id": "item_011",
+    "name": "Armor 11",
+    "type": "armor",
+    "rarity": "common",
+    "stats": {
+      "atk": 0,
+      "def": 11,
+      "hp": 55,
+      "mp": 0,
+      "spd": 4
+    },
+    "description": "Vật phẩm armor dùng trong tu tiên.",
+    "sellPrice": 110,
+    "dropRate": 0.018181818181818184
+  },
+  {
+    "id": "item_012",
+    "name": "Armor 12",
+    "type": "armor",
+    "rarity": "common",
+    "stats": {
+      "atk": 0,
+      "def": 12,
+      "hp": 60,
+      "mp": 0,
+      "spd": 5
+    },
+    "description": "Vật phẩm armor dùng trong tu tiên.",
+    "sellPrice": 120,
+    "dropRate": 0.016666666666666666
+  },
+  {
+    "id": "item_013",
+    "name": "Armor 13",
+    "type": "armor",
+    "rarity": "common",
+    "stats": {
+      "atk": 0,
+      "def": 13,
+      "hp": 65,
+      "mp": 0,
+      "spd": 6
+    },
+    "description": "Vật phẩm armor dùng trong tu tiên.",
+    "sellPrice": 130,
+    "dropRate": 0.015384615384615385
+  },
+  {
+    "id": "item_014",
+    "name": "Armor 14",
+    "type": "armor",
+    "rarity": "rare",
+    "stats": {
+      "atk": 0,
+      "def": 14,
+      "hp": 70,
+      "mp": 0,
+      "spd": 0
+    },
+    "description": "Vật phẩm armor dùng trong tu tiên.",
+    "sellPrice": 140,
+    "dropRate": 0.014285714285714287
+  },
+  {
+    "id": "item_015",
+    "name": "Armor 15",
+    "type": "armor",
+    "rarity": "rare",
+    "stats": {
+      "atk": 0,
+      "def": 15,
+      "hp": 75,
+      "mp": 0,
+      "spd": 1
+    },
+    "description": "Vật phẩm armor dùng trong tu tiên.",
+    "sellPrice": 150,
+    "dropRate": 0.013333333333333334
+  },
+  {
+    "id": "item_016",
+    "name": "Armor 16",
+    "type": "armor",
+    "rarity": "rare",
+    "stats": {
+      "atk": 0,
+      "def": 16,
+      "hp": 80,
+      "mp": 0,
+      "spd": 2
+    },
+    "description": "Vật phẩm armor dùng trong tu tiên.",
+    "sellPrice": 160,
+    "dropRate": 0.0125
+  },
+  {
+    "id": "item_017",
+    "name": "Armor 17",
+    "type": "armor",
+    "rarity": "epic",
+    "stats": {
+      "atk": 0,
+      "def": 17,
+      "hp": 85,
+      "mp": 0,
+      "spd": 3
+    },
+    "description": "Vật phẩm armor dùng trong tu tiên.",
+    "sellPrice": 170,
+    "dropRate": 0.011764705882352941
+  },
+  {
+    "id": "item_018",
+    "name": "Armor 18",
+    "type": "armor",
+    "rarity": "epic",
+    "stats": {
+      "atk": 0,
+      "def": 18,
+      "hp": 90,
+      "mp": 0,
+      "spd": 4
+    },
+    "description": "Vật phẩm armor dùng trong tu tiên.",
+    "sellPrice": 180,
+    "dropRate": 0.011111111111111112
+  },
+  {
+    "id": "item_019",
+    "name": "Armor 19",
+    "type": "armor",
+    "rarity": "epic",
+    "stats": {
+      "atk": 0,
+      "def": 19,
+      "hp": 95,
+      "mp": 0,
+      "spd": 5
+    },
+    "description": "Vật phẩm armor dùng trong tu tiên.",
+    "sellPrice": 190,
+    "dropRate": 0.010526315789473684
+  },
+  {
+    "id": "item_020",
+    "name": "Armor 20",
+    "type": "armor",
+    "rarity": "legendary",
+    "stats": {
+      "atk": 0,
+      "def": 20,
+      "hp": 100,
+      "mp": 0,
+      "spd": 6
+    },
+    "description": "Vật phẩm armor dùng trong tu tiên.",
+    "sellPrice": 200,
+    "dropRate": 0.01
+  },
+  {
+    "id": "item_021",
+    "name": "Armor 21",
+    "type": "armor",
+    "rarity": "legendary",
+    "stats": {
+      "atk": 0,
+      "def": 21,
+      "hp": 105,
+      "mp": 0,
+      "spd": 0
+    },
+    "description": "Vật phẩm armor dùng trong tu tiên.",
+    "sellPrice": 210,
+    "dropRate": 0.009523809523809525
+  },
+  {
+    "id": "item_022",
+    "name": "Armor 22",
+    "type": "armor",
+    "rarity": "legendary",
+    "stats": {
+      "atk": 0,
+      "def": 22,
+      "hp": 110,
+      "mp": 0,
+      "spd": 1
+    },
+    "description": "Vật phẩm armor dùng trong tu tiên.",
+    "sellPrice": 220,
+    "dropRate": 0.009090909090909092
+  },
+  {
+    "id": "item_023",
+    "name": "Armor 23",
+    "type": "armor",
+    "rarity": "common",
+    "stats": {
+      "atk": 0,
+      "def": 23,
+      "hp": 115,
+      "mp": 0,
+      "spd": 2
+    },
+    "description": "Vật phẩm armor dùng trong tu tiên.",
+    "sellPrice": 230,
+    "dropRate": 0.008695652173913044
+  },
+  {
+    "id": "item_024",
+    "name": "Armor 24",
+    "type": "armor",
+    "rarity": "common",
+    "stats": {
+      "atk": 0,
+      "def": 24,
+      "hp": 120,
+      "mp": 0,
+      "spd": 3
+    },
+    "description": "Vật phẩm armor dùng trong tu tiên.",
+    "sellPrice": 240,
+    "dropRate": 0.008333333333333333
+  },
+  {
+    "id": "item_025",
+    "name": "Armor 25",
+    "type": "armor",
+    "rarity": "common",
+    "stats": {
+      "atk": 0,
+      "def": 25,
+      "hp": 125,
+      "mp": 0,
+      "spd": 4
+    },
+    "description": "Vật phẩm armor dùng trong tu tiên.",
+    "sellPrice": 250,
+    "dropRate": 0.008
+  },
+  {
+    "id": "item_026",
+    "name": "Pill 26",
+    "type": "pill",
+    "rarity": "common",
+    "stats": {
+      "atk": 0,
+      "def": 0,
+      "hp": 130,
+      "mp": 78,
+      "spd": 5
+    },
+    "description": "Vật phẩm pill dùng trong tu tiên.",
+    "sellPrice": 260,
+    "dropRate": 0.007692307692307693
+  },
+  {
+    "id": "item_027",
+    "name": "Pill 27",
+    "type": "pill",
+    "rarity": "common",
+    "stats": {
+      "atk": 0,
+      "def": 0,
+      "hp": 135,
+      "mp": 81,
+      "spd": 6
+    },
+    "description": "Vật phẩm pill dùng trong tu tiên.",
+    "sellPrice": 270,
+    "dropRate": 0.007407407407407408
+  },
+  {
+    "id": "item_028",
+    "name": "Pill 28",
+    "type": "pill",
+    "rarity": "common",
+    "stats": {
+      "atk": 0,
+      "def": 0,
+      "hp": 140,
+      "mp": 84,
+      "spd": 0
+    },
+    "description": "Vật phẩm pill dùng trong tu tiên.",
+    "sellPrice": 280,
+    "dropRate": 0.0071428571428571435
+  },
+  {
+    "id": "item_029",
+    "name": "Pill 29",
+    "type": "pill",
+    "rarity": "rare",
+    "stats": {
+      "atk": 0,
+      "def": 0,
+      "hp": 145,
+      "mp": 87,
+      "spd": 1
+    },
+    "description": "Vật phẩm pill dùng trong tu tiên.",
+    "sellPrice": 290,
+    "dropRate": 0.006896551724137932
+  },
+  {
+    "id": "item_030",
+    "name": "Pill 30",
+    "type": "pill",
+    "rarity": "rare",
+    "stats": {
+      "atk": 0,
+      "def": 0,
+      "hp": 150,
+      "mp": 90,
+      "spd": 2
+    },
+    "description": "Vật phẩm pill dùng trong tu tiên.",
+    "sellPrice": 300,
+    "dropRate": 0.006666666666666667
+  },
+  {
+    "id": "item_031",
+    "name": "Pill 31",
+    "type": "pill",
+    "rarity": "rare",
+    "stats": {
+      "atk": 0,
+      "def": 0,
+      "hp": 155,
+      "mp": 93,
+      "spd": 3
+    },
+    "description": "Vật phẩm pill dùng trong tu tiên.",
+    "sellPrice": 310,
+    "dropRate": 0.0064516129032258064
+  },
+  {
+    "id": "item_032",
+    "name": "Pill 32",
+    "type": "pill",
+    "rarity": "epic",
+    "stats": {
+      "atk": 0,
+      "def": 0,
+      "hp": 160,
+      "mp": 96,
+      "spd": 4
+    },
+    "description": "Vật phẩm pill dùng trong tu tiên.",
+    "sellPrice": 320,
+    "dropRate": 0.00625
+  },
+  {
+    "id": "item_033",
+    "name": "Pill 33",
+    "type": "pill",
+    "rarity": "epic",
+    "stats": {
+      "atk": 0,
+      "def": 0,
+      "hp": 165,
+      "mp": 99,
+      "spd": 5
+    },
+    "description": "Vật phẩm pill dùng trong tu tiên.",
+    "sellPrice": 330,
+    "dropRate": 0.006060606060606061
+  },
+  {
+    "id": "item_034",
+    "name": "Pill 34",
+    "type": "pill",
+    "rarity": "epic",
+    "stats": {
+      "atk": 0,
+      "def": 0,
+      "hp": 170,
+      "mp": 102,
+      "spd": 6
+    },
+    "description": "Vật phẩm pill dùng trong tu tiên.",
+    "sellPrice": 340,
+    "dropRate": 0.0058823529411764705
+  },
+  {
+    "id": "item_035",
+    "name": "Pill 35",
+    "type": "pill",
+    "rarity": "legendary",
+    "stats": {
+      "atk": 0,
+      "def": 0,
+      "hp": 175,
+      "mp": 105,
+      "spd": 0
+    },
+    "description": "Vật phẩm pill dùng trong tu tiên.",
+    "sellPrice": 350,
+    "dropRate": 0.005714285714285714
+  },
+  {
+    "id": "item_036",
+    "name": "Material 36",
+    "type": "material",
+    "rarity": "common",
+    "stats": {
+      "atk": 0,
+      "def": 0,
+      "hp": 0,
+      "mp": 0,
+      "spd": 1
+    },
+    "description": "Vật phẩm material dùng trong tu tiên.",
+    "sellPrice": 360,
+    "dropRate": 0.005555555555555556
+  },
+  {
+    "id": "item_037",
+    "name": "Material 37",
+    "type": "material",
+    "rarity": "common",
+    "stats": {
+      "atk": 0,
+      "def": 0,
+      "hp": 0,
+      "mp": 0,
+      "spd": 2
+    },
+    "description": "Vật phẩm material dùng trong tu tiên.",
+    "sellPrice": 370,
+    "dropRate": 0.005405405405405406
+  },
+  {
+    "id": "item_038",
+    "name": "Material 38",
+    "type": "material",
+    "rarity": "common",
+    "stats": {
+      "atk": 0,
+      "def": 0,
+      "hp": 0,
+      "mp": 0,
+      "spd": 3
+    },
+    "description": "Vật phẩm material dùng trong tu tiên.",
+    "sellPrice": 380,
+    "dropRate": 0.005263157894736842
+  },
+  {
+    "id": "item_039",
+    "name": "Material 39",
+    "type": "material",
+    "rarity": "rare",
+    "stats": {
+      "atk": 0,
+      "def": 0,
+      "hp": 0,
+      "mp": 0,
+      "spd": 4
+    },
+    "description": "Vật phẩm material dùng trong tu tiên.",
+    "sellPrice": 390,
+    "dropRate": 0.005128205128205128
+  },
+  {
+    "id": "item_040",
+    "name": "Material 40",
+    "type": "material",
+    "rarity": "rare",
+    "stats": {
+      "atk": 0,
+      "def": 0,
+      "hp": 0,
+      "mp": 0,
+      "spd": 5
+    },
+    "description": "Vật phẩm material dùng trong tu tiên.",
+    "sellPrice": 400,
+    "dropRate": 0.005
+  },
+  {
+    "id": "item_041",
+    "name": "Material 41",
+    "type": "material",
+    "rarity": "rare",
+    "stats": {
+      "atk": 0,
+      "def": 0,
+      "hp": 0,
+      "mp": 0,
+      "spd": 6
+    },
+    "description": "Vật phẩm material dùng trong tu tiên.",
+    "sellPrice": 410,
+    "dropRate": 0.004878048780487805
+  },
+  {
+    "id": "item_042",
+    "name": "Material 42",
+    "type": "material",
+    "rarity": "epic",
+    "stats": {
+      "atk": 0,
+      "def": 0,
+      "hp": 0,
+      "mp": 0,
+      "spd": 0
+    },
+    "description": "Vật phẩm material dùng trong tu tiên.",
+    "sellPrice": 420,
+    "dropRate": 0.004761904761904762
+  },
+  {
+    "id": "item_043",
+    "name": "Material 43",
+    "type": "material",
+    "rarity": "epic",
+    "stats": {
+      "atk": 0,
+      "def": 0,
+      "hp": 0,
+      "mp": 0,
+      "spd": 1
+    },
+    "description": "Vật phẩm material dùng trong tu tiên.",
+    "sellPrice": 430,
+    "dropRate": 0.004651162790697674
+  },
+  {
+    "id": "item_044",
+    "name": "Material 44",
+    "type": "material",
+    "rarity": "epic",
+    "stats": {
+      "atk": 0,
+      "def": 0,
+      "hp": 0,
+      "mp": 0,
+      "spd": 2
+    },
+    "description": "Vật phẩm material dùng trong tu tiên.",
+    "sellPrice": 440,
+    "dropRate": 0.004545454545454546
+  },
+  {
+    "id": "item_045",
+    "name": "Material 45",
+    "type": "material",
+    "rarity": "legendary",
+    "stats": {
+      "atk": 0,
+      "def": 0,
+      "hp": 0,
+      "mp": 0,
+      "spd": 3
+    },
+    "description": "Vật phẩm material dùng trong tu tiên.",
+    "sellPrice": 450,
+    "dropRate": 0.0044444444444444444
+  },
+  {
+    "id": "item_046",
+    "name": "Pet_Food 46",
+    "type": "pet_food",
+    "rarity": "common",
+    "stats": {
+      "atk": 0,
+      "def": 0,
+      "hp": 0,
+      "mp": 0,
+      "spd": 4
+    },
+    "description": "Vật phẩm pet_food dùng trong tu tiên.",
+    "sellPrice": 460,
+    "dropRate": 0.004347826086956522
+  },
+  {
+    "id": "item_047",
+    "name": "Pet_Food 47",
+    "type": "pet_food",
+    "rarity": "common",
+    "stats": {
+      "atk": 0,
+      "def": 0,
+      "hp": 0,
+      "mp": 0,
+      "spd": 5
+    },
+    "description": "Vật phẩm pet_food dùng trong tu tiên.",
+    "sellPrice": 470,
+    "dropRate": 0.00425531914893617
+  },
+  {
+    "id": "item_048",
+    "name": "Pet_Food 48",
+    "type": "pet_food",
+    "rarity": "common",
+    "stats": {
+      "atk": 0,
+      "def": 0,
+      "hp": 0,
+      "mp": 0,
+      "spd": 6
+    },
+    "description": "Vật phẩm pet_food dùng trong tu tiên.",
+    "sellPrice": 480,
+    "dropRate": 0.004166666666666667
+  },
+  {
+    "id": "item_049",
+    "name": "Pet_Food 49",
+    "type": "pet_food",
+    "rarity": "rare",
+    "stats": {
+      "atk": 0,
+      "def": 0,
+      "hp": 0,
+      "mp": 0,
+      "spd": 0
+    },
+    "description": "Vật phẩm pet_food dùng trong tu tiên.",
+    "sellPrice": 490,
+    "dropRate": 0.004081632653061225
+  },
+  {
+    "id": "item_050",
+    "name": "Pet_Food 50",
+    "type": "pet_food",
+    "rarity": "rare",
+    "stats": {
+      "atk": 0,
+      "def": 0,
+      "hp": 0,
+      "mp": 0,
+      "spd": 1
+    },
+    "description": "Vật phẩm pet_food dùng trong tu tiên.",
+    "sellPrice": 500,
+    "dropRate": 0.004
+  },
+  {
+    "id": "item_051",
+    "name": "Misc 51",
+    "type": "misc",
+    "rarity": "common",
+    "stats": {
+      "atk": 0,
+      "def": 0,
+      "hp": 0,
+      "mp": 0,
+      "spd": 2
+    },
+    "description": "Vật phẩm misc dùng trong tu tiên.",
+    "sellPrice": 510,
+    "dropRate": 0.00392156862745098
+  },
+  {
+    "id": "item_052",
+    "name": "Misc 52",
+    "type": "misc",
+    "rarity": "common",
+    "stats": {
+      "atk": 0,
+      "def": 0,
+      "hp": 0,
+      "mp": 0,
+      "spd": 3
+    },
+    "description": "Vật phẩm misc dùng trong tu tiên.",
+    "sellPrice": 520,
+    "dropRate": 0.0038461538461538464
+  },
+  {
+    "id": "item_053",
+    "name": "Misc 53",
+    "type": "misc",
+    "rarity": "common",
+    "stats": {
+      "atk": 0,
+      "def": 0,
+      "hp": 0,
+      "mp": 0,
+      "spd": 4
+    },
+    "description": "Vật phẩm misc dùng trong tu tiên.",
+    "sellPrice": 530,
+    "dropRate": 0.0037735849056603774
+  },
+  {
+    "id": "item_054",
+    "name": "Misc 54",
+    "type": "misc",
+    "rarity": "rare",
+    "stats": {
+      "atk": 0,
+      "def": 0,
+      "hp": 0,
+      "mp": 0,
+      "spd": 5
+    },
+    "description": "Vật phẩm misc dùng trong tu tiên.",
+    "sellPrice": 540,
+    "dropRate": 0.003703703703703704
+  },
+  {
+    "id": "item_055",
+    "name": "Misc 55",
+    "type": "misc",
+    "rarity": "rare",
+    "stats": {
+      "atk": 0,
+      "def": 0,
+      "hp": 0,
+      "mp": 0,
+      "spd": 6
+    },
+    "description": "Vật phẩm misc dùng trong tu tiên.",
+    "sellPrice": 550,
+    "dropRate": 0.0036363636363636364
+  },
+  {
+    "id": "item_056",
+    "name": "Misc 56",
+    "type": "misc",
+    "rarity": "rare",
+    "stats": {
+      "atk": 0,
+      "def": 0,
+      "hp": 0,
+      "mp": 0,
+      "spd": 0
+    },
+    "description": "Vật phẩm misc dùng trong tu tiên.",
+    "sellPrice": 560,
+    "dropRate": 0.0035714285714285718
+  },
+  {
+    "id": "item_057",
+    "name": "Misc 57",
+    "type": "misc",
+    "rarity": "epic",
+    "stats": {
+      "atk": 0,
+      "def": 0,
+      "hp": 0,
+      "mp": 0,
+      "spd": 1
+    },
+    "description": "Vật phẩm misc dùng trong tu tiên.",
+    "sellPrice": 570,
+    "dropRate": 0.0035087719298245615
+  },
+  {
+    "id": "item_058",
+    "name": "Misc 58",
+    "type": "misc",
+    "rarity": "epic",
+    "stats": {
+      "atk": 0,
+      "def": 0,
+      "hp": 0,
+      "mp": 0,
+      "spd": 2
+    },
+    "description": "Vật phẩm misc dùng trong tu tiên.",
+    "sellPrice": 580,
+    "dropRate": 0.003448275862068966
+  },
+  {
+    "id": "item_059",
+    "name": "Misc 59",
+    "type": "misc",
+    "rarity": "epic",
+    "stats": {
+      "atk": 0,
+      "def": 0,
+      "hp": 0,
+      "mp": 0,
+      "spd": 3
+    },
+    "description": "Vật phẩm misc dùng trong tu tiên.",
+    "sellPrice": 590,
+    "dropRate": 0.0033898305084745766
+  },
+  {
+    "id": "item_060",
+    "name": "Misc 60",
+    "type": "misc",
+    "rarity": "legendary",
+    "stats": {
+      "atk": 0,
+      "def": 0,
+      "hp": 0,
+      "mp": 0,
+      "spd": 4
+    },
+    "description": "Vật phẩm misc dùng trong tu tiên.",
+    "sellPrice": 600,
+    "dropRate": 0.0033333333333333335
+  }
+]

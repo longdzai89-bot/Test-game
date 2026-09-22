@@ -1,0 +1,1 @@
+const Notification=require("../models/Notification");async function sendMail(toUserId,{title,body,items=[]}){return Notification.create({userId:toUserId,type:"mail",title,body,data:{items}})}module.exports={sendMail};

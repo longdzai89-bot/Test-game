@@ -1,0 +1,176 @@
+[
+  {
+    "id": 1,
+    "name": "Luyện Khí",
+    "stages": 9,
+    "expPerStage": [
+      1000,
+      2500,
+      5000,
+      10000,
+      20000,
+      40000,
+      80000,
+      160000,
+      320000
+    ],
+    "statBonus": {
+      "atk": 2,
+      "def": 1,
+      "hp": 50,
+      "mp": 30
+    },
+    "breakFailRate": 0,
+    "breakItems": []
+  },
+  {
+    "id": 2,
+    "name": "Trúc Cơ",
+    "stages": 3,
+    "expPerStage": [
+      400000,
+      700000,
+      1100000
+    ],
+    "statBonus": {
+      "atk": 10,
+      "def": 6,
+      "hp": 200,
+      "mp": 120
+    },
+    "breakFailRate": 0.15,
+    "breakItems": []
+  },
+  {
+    "id": 3,
+    "name": "Kim Đan",
+    "stages": 3,
+    "expPerStage": [
+      1500000,
+      2200000,
+      3200000
+    ],
+    "statBonus": {
+      "atk": 20,
+      "def": 12,
+      "hp": 500,
+      "mp": 300
+    },
+    "breakFailRate": 0.2,
+    "breakItems": []
+  },
+  {
+    "id": 4,
+    "name": "Nguyên Anh",
+    "stages": 3,
+    "expPerStage": [
+      4500000,
+      6500000,
+      9000000
+    ],
+    "statBonus": {
+      "atk": 40,
+      "def": 25,
+      "hp": 1000,
+      "mp": 700
+    },
+    "breakFailRate": 0.25,
+    "breakItems": []
+  },
+  {
+    "id": 5,
+    "name": "Hóa Thần",
+    "stages": 3,
+    "expPerStage": [
+      12000000,
+      17000000,
+      24000000
+    ],
+    "statBonus": {
+      "atk": 80,
+      "def": 50,
+      "hp": 2200,
+      "mp": 1500
+    },
+    "breakFailRate": 0.3,
+    "breakItems": []
+  },
+  {
+    "id": 6,
+    "name": "Luyện Hư",
+    "stages": 3,
+    "expPerStage": [
+      32000000,
+      45000000,
+      62000000
+    ],
+    "statBonus": {
+      "atk": 160,
+      "def": 100,
+      "hp": 5000,
+      "mp": 3200
+    },
+    "breakFailRate": 0.35,
+    "breakItems": []
+  },
+  {
+    "id": 7,
+    "name": "Hợp Thể",
+    "stages": 3,
+    "expPerStage": [
+      80000000,
+      110000000,
+      150000000
+    ],
+    "statBonus": {
+      "atk": 320,
+      "def": 200,
+      "hp": 11000,
+      "mp": 7000
+    },
+    "breakFailRate": 0.4,
+    "breakItems": []
+  },
+  {
+    "id": 8,
+    "name": "Đại Thừa",
+    "stages": 3,
+    "expPerStage": [
+      190000000,
+      260000000,
+      350000000
+    ],
+    "statBonus": {
+      "atk": 650,
+      "def": 400,
+      "hp": 24000,
+      "mp": 15000
+    },
+    "breakFailRate": 0.45,
+    "breakItems": []
+  },
+  {
+    "id": 9,
+    "name": "Độ Kiếp",
+    "stages": 9,
+    "expPerStage": [
+      450000000,
+      600000000,
+      800000000,
+      1000000000,
+      1250000000,
+      1550000000,
+      1900000000,
+      2300000000,
+      2800000000
+    ],
+    "statBonus": {
+      "atk": 1300,
+      "def": 800,
+      "hp": 50000,
+      "mp": 32000
+    },
+    "breakFailRate": 0.5,
+    "breakItems": []
+  }
+]

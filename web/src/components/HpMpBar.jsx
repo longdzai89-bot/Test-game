@@ -1,0 +1,1 @@
+export default function HpMpBar({hp=0,maxHp=1,mp=0,maxMp=1}){return <div>❤️ {hp}/{maxHp}　💧 {mp}/{maxMp}</div>}

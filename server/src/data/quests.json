@@ -1,0 +1,342 @@
+[
+  {
+    "id": "quest_01",
+    "name": "Nhiệm vụ 1",
+    "type": "kill",
+    "requirements": {
+      "count": 1
+    },
+    "rewards": {
+      "exp": 1000,
+      "gold": 100,
+      "items": [
+        "item_001"
+      ]
+    },
+    "repeatable": false,
+    "realmRequired": 0
+  },
+  {
+    "id": "quest_02",
+    "name": "Nhiệm vụ 2",
+    "type": "collect",
+    "requirements": {
+      "count": 2
+    },
+    "rewards": {
+      "exp": 2000,
+      "gold": 200,
+      "items": [
+        "item_002"
+      ]
+    },
+    "repeatable": false,
+    "realmRequired": 1
+  },
+  {
+    "id": "quest_03",
+    "name": "Nhiệm vụ 3",
+    "type": "breakthrough",
+    "requirements": {
+      "count": 3
+    },
+    "rewards": {
+      "exp": 3000,
+      "gold": 300,
+      "items": [
+        "item_003"
+      ]
+    },
+    "repeatable": true,
+    "realmRequired": 1
+  },
+  {
+    "id": "quest_04",
+    "name": "Nhiệm vụ 4",
+    "type": "reach_realm",
+    "requirements": {
+      "count": 4
+    },
+    "rewards": {
+      "exp": 4000,
+      "gold": 400,
+      "items": [
+        "item_004"
+      ]
+    },
+    "repeatable": false,
+    "realmRequired": 1
+  },
+  {
+    "id": "quest_05",
+    "name": "Nhiệm vụ 5",
+    "type": "kill",
+    "requirements": {
+      "count": 5
+    },
+    "rewards": {
+      "exp": 5000,
+      "gold": 500,
+      "items": [
+        "item_005"
+      ]
+    },
+    "repeatable": false,
+    "realmRequired": 1
+  },
+  {
+    "id": "quest_06",
+    "name": "Nhiệm vụ 6",
+    "type": "collect",
+    "requirements": {
+      "count": 6
+    },
+    "rewards": {
+      "exp": 6000,
+      "gold": 600,
+      "items": [
+        "item_006"
+      ]
+    },
+    "repeatable": true,
+    "realmRequired": 2
+  },
+  {
+    "id": "quest_07",
+    "name": "Nhiệm vụ 7",
+    "type": "breakthrough",
+    "requirements": {
+      "count": 7
+    },
+    "rewards": {
+      "exp": 7000,
+      "gold": 700,
+      "items": [
+        "item_007"
+      ]
+    },
+    "repeatable": false,
+    "realmRequired": 2
+  },
+  {
+    "id": "quest_08",
+    "name": "Nhiệm vụ 8",
+    "type": "reach_realm",
+    "requirements": {
+      "count": 8
+    },
+    "rewards": {
+      "exp": 8000,
+      "gold": 800,
+      "items": [
+        "item_008"
+      ]
+    },
+    "repeatable": false,
+    "realmRequired": 2
+  },
+  {
+    "id": "quest_09",
+    "name": "Nhiệm vụ 9",
+    "type": "kill",
+    "requirements": {
+      "count": 9
+    },
+    "rewards": {
+      "exp": 9000,
+      "gold": 900,
+      "items": [
+        "item_009"
+      ]
+    },
+    "repeatable": true,
+    "realmRequired": 2
+  },
+  {
+    "id": "quest_10",
+    "name": "Nhiệm vụ 10",
+    "type": "collect",
+    "requirements": {
+      "count": 10
+    },
+    "rewards": {
+      "exp": 10000,
+      "gold": 1000,
+      "items": [
+        "item_010"
+      ]
+    },
+    "repeatable": false,
+    "realmRequired": 3
+  },
+  {
+    "id": "quest_11",
+    "name": "Nhiệm vụ 11",
+    "type": "breakthrough",
+    "requirements": {
+      "count": 11
+    },
+    "rewards": {
+      "exp": 11000,
+      "gold": 1100,
+      "items": [
+        "item_011"
+      ]
+    },
+    "repeatable": false,
+    "realmRequired": 3
+  },
+  {
+    "id": "quest_12",
+    "name": "Nhiệm vụ 12",
+    "type": "reach_realm",
+    "requirements": {
+      "count": 12
+    },
+    "rewards": {
+      "exp": 12000,
+      "gold": 1200,
+      "items": [
+        "item_012"
+      ]
+    },
+    "repeatable": true,
+    "realmRequired": 3
+  },
+  {
+    "id": "quest_13",
+    "name": "Nhiệm vụ 13",
+    "type": "kill",
+    "requirements": {
+      "count": 13
+    },
+    "rewards": {
+      "exp": 13000,
+      "gold": 1300,
+      "items": [
+        "item_013"
+      ]
+    },
+    "repeatable": false,
+    "realmRequired": 3
+  },
+  {
+    "id": "quest_14",
+    "name": "Nhiệm vụ 14",
+    "type": "collect",
+    "requirements": {
+      "count": 14
+    },
+    "rewards": {
+      "exp": 14000,
+      "gold": 1400,
+      "items": [
+        "item_014"
+      ]
+    },
+    "repeatable": false,
+    "realmRequired": 4
+  },
+  {
+    "id": "quest_15",
+    "name": "Nhiệm vụ 15",
+    "type": "breakthrough",
+    "requirements": {
+      "count": 15
+    },
+    "rewards": {
+      "exp": 15000,
+      "gold": 1500,
+      "items": [
+        "item_015"
+      ]
+    },
+    "repeatable": true,
+    "realmRequired": 4
+  },
+  {
+    "id": "quest_16",
+    "name": "Nhiệm vụ 16",
+    "type": "reach_realm",
+    "requirements": {
+      "count": 16
+    },
+    "rewards": {
+      "exp": 16000,
+      "gold": 1600,
+      "items": [
+        "item_016"
+      ]
+    },
+    "repeatable": false,
+    "realmRequired": 4
+  },
+  {
+    "id": "quest_17",
+    "name": "Nhiệm vụ 17",
+    "type": "kill",
+    "requirements": {
+      "count": 17
+    },
+    "rewards": {
+      "exp": 17000,
+      "gold": 1700,
+      "items": [
+        "item_017"
+      ]
+    },
+    "repeatable": false,
+    "realmRequired": 4
+  },
+  {
+    "id": "quest_18",
+    "name": "Nhiệm vụ 18",
+    "type": "collect",
+    "requirements": {
+      "count": 18
+    },
+    "rewards": {
+      "exp": 18000,
+      "gold": 1800,
+      "items": [
+        "item_018"
+      ]
+    },
+    "repeatable": true,
+    "realmRequired": 5
+  },
+  {
+    "id": "quest_19",
+    "name": "Nhiệm vụ 19",
+    "type": "breakthrough",
+    "requirements": {
+      "count": 19
+    },
+    "rewards": {
+      "exp": 19000,
+      "gold": 1900,
+      "items": [
+        "item_019"
+      ]
+    },
+    "repeatable": false,
+    "realmRequired": 5
+  },
+  {
+    "id": "quest_20",
+    "name": "Nhiệm vụ 20",
+    "type": "reach_realm",
+    "requirements": {
+      "count": 20
+    },
+    "rewards": {
+      "exp": 20000,
+      "gold": 2000,
+      "items": [
+        "item_020"
+      ]
+    },
+    "repeatable": false,
+    "realmRequired": 5
+  }
+]

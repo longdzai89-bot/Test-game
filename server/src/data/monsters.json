@@ -1,0 +1,512 @@
+[
+  {
+    "id": "monster_001",
+    "name": "Yêu Thú 1",
+    "realm": 0,
+    "hp": 180,
+    "atk": 18,
+    "def": 9,
+    "spd": 6,
+    "expReward": 250,
+    "goldReward": 30,
+    "dropTable": [
+      {
+        "itemId": "item_001",
+        "rate": 0.25
+      }
+    ]
+  },
+  {
+    "id": "monster_002",
+    "name": "Yêu Thú 2",
+    "realm": 1,
+    "hp": 260,
+    "atk": 26,
+    "def": 13,
+    "spd": 7,
+    "expReward": 400,
+    "goldReward": 40,
+    "dropTable": [
+      {
+        "itemId": "item_002",
+        "rate": 0.25
+      }
+    ]
+  },
+  {
+    "id": "monster_003",
+    "name": "Yêu Thú 3",
+    "realm": 1,
+    "hp": 340,
+    "atk": 34,
+    "def": 17,
+    "spd": 8,
+    "expReward": 550,
+    "goldReward": 50,
+    "dropTable": [
+      {
+        "itemId": "item_003",
+        "rate": 0.25
+      }
+    ]
+  },
+  {
+    "id": "monster_004",
+    "name": "Yêu Thú 4",
+    "realm": 1,
+    "hp": 420,
+    "atk": 42,
+    "def": 21,
+    "spd": 9,
+    "expReward": 700,
+    "goldReward": 60,
+    "dropTable": [
+      {
+        "itemId": "item_004",
+        "rate": 0.25
+      }
+    ]
+  },
+  {
+    "id": "monster_005",
+    "name": "Yêu Thú 5",
+    "realm": 1,
+    "hp": 500,
+    "atk": 50,
+    "def": 25,
+    "spd": 10,
+    "expReward": 850,
+    "goldReward": 70,
+    "dropTable": [
+      {
+        "itemId": "item_005",
+        "rate": 0.25
+      }
+    ]
+  },
+  {
+    "id": "monster_006",
+    "name": "Yêu Thú 6",
+    "realm": 2,
+    "hp": 580,
+    "atk": 58,
+    "def": 29,
+    "spd": 11,
+    "expReward": 1000,
+    "goldReward": 80,
+    "dropTable": [
+      {
+        "itemId": "item_006",
+        "rate": 0.25
+      }
+    ]
+  },
+  {
+    "id": "monster_007",
+    "name": "Yêu Thú 7",
+    "realm": 2,
+    "hp": 660,
+    "atk": 66,
+    "def": 33,
+    "spd": 12,
+    "expReward": 1150,
+    "goldReward": 90,
+    "dropTable": [
+      {
+        "itemId": "item_007",
+        "rate": 0.25
+      }
+    ]
+  },
+  {
+    "id": "monster_008",
+    "name": "Yêu Thú 8",
+    "realm": 2,
+    "hp": 740,
+    "atk": 74,
+    "def": 37,
+    "spd": 13,
+    "expReward": 1300,
+    "goldReward": 100,
+    "dropTable": [
+      {
+        "itemId": "item_008",
+        "rate": 0.25
+      }
+    ]
+  },
+  {
+    "id": "monster_009",
+    "name": "Yêu Thú 9",
+    "realm": 2,
+    "hp": 820,
+    "atk": 82,
+    "def": 41,
+    "spd": 14,
+    "expReward": 1450,
+    "goldReward": 110,
+    "dropTable": [
+      {
+        "itemId": "item_009",
+        "rate": 0.25
+      }
+    ]
+  },
+  {
+    "id": "monster_010",
+    "name": "Yêu Thú 10",
+    "realm": 3,
+    "hp": 900,
+    "atk": 90,
+    "def": 45,
+    "spd": 5,
+    "expReward": 1600,
+    "goldReward": 120,
+    "dropTable": [
+      {
+        "itemId": "item_010",
+        "rate": 0.25
+      }
+    ]
+  },
+  {
+    "id": "monster_011",
+    "name": "Yêu Thú 11",
+    "realm": 3,
+    "hp": 980,
+    "atk": 98,
+    "def": 49,
+    "spd": 6,
+    "expReward": 1750,
+    "goldReward": 130,
+    "dropTable": [
+      {
+        "itemId": "item_011",
+        "rate": 0.25
+      }
+    ]
+  },
+  {
+    "id": "monster_012",
+    "name": "Yêu Thú 12",
+    "realm": 3,
+    "hp": 1060,
+    "atk": 106,
+    "def": 53,
+    "spd": 7,
+    "expReward": 1900,
+    "goldReward": 140,
+    "dropTable": [
+      {
+        "itemId": "item_012",
+        "rate": 0.25
+      }
+    ]
+  },
+  {
+    "id": "monster_013",
+    "name": "Yêu Thú 13",
+    "realm": 3,
+    "hp": 1140,
+    "atk": 114,
+    "def": 57,
+    "spd": 8,
+    "expReward": 2050,
+    "goldReward": 150,
+    "dropTable": [
+      {
+        "itemId": "item_013",
+        "rate": 0.25
+      }
+    ]
+  },
+  {
+    "id": "monster_014",
+    "name": "Yêu Thú 14",
+    "realm": 4,
+    "hp": 1220,
+    "atk": 122,
+    "def": 61,
+    "spd": 9,
+    "expReward": 2200,
+    "goldReward": 160,
+    "dropTable": [
+      {
+        "itemId": "item_014",
+        "rate": 0.25
+      }
+    ]
+  },
+  {
+    "id": "monster_015",
+    "name": "Yêu Thú 15",
+    "realm": 4,
+    "hp": 1300,
+    "atk": 130,
+    "def": 65,
+    "spd": 10,
+    "expReward": 2350,
+    "goldReward": 170,
+    "dropTable": [
+      {
+        "itemId": "item_015",
+        "rate": 0.25
+      }
+    ]
+  },
+  {
+    "id": "monster_016",
+    "name": "Yêu Thú 16",
+    "realm": 4,
+    "hp": 1380,
+    "atk": 138,
+    "def": 69,
+    "spd": 11,
+    "expReward": 2500,
+    "goldReward": 180,
+    "dropTable": [
+      {
+        "itemId": "item_016",
+        "rate": 0.25
+      }
+    ]
+  },
+  {
+    "id": "monster_017",
+    "name": "Yêu Thú 17",
+    "realm": 4,
+    "hp": 1460,
+    "atk": 146,
+    "def": 73,
+    "spd": 12,
+    "expReward": 2650,
+    "goldReward": 190,
+    "dropTable": [
+      {
+        "itemId": "item_017",
+        "rate": 0.25
+      }
+    ]
+  },
+  {
+    "id": "monster_018",
+    "name": "Yêu Thú 18",
+    "realm": 5,
+    "hp": 1540,
+    "atk": 154,
+    "def": 77,
+    "spd": 13,
+    "expReward": 2800,
+    "goldReward": 200,
+    "dropTable": [
+      {
+        "itemId": "item_018",
+        "rate": 0.25
+      }
+    ]
+  },
+  {
+    "id": "monster_019",
+    "name": "Yêu Thú 19",
+    "realm": 5,
+    "hp": 1620,
+    "atk": 162,
+    "def": 81,
+    "spd": 14,
+    "expReward": 2950,
+    "goldReward": 210,
+    "dropTable": [
+      {
+        "itemId": "item_019",
+        "rate": 0.25
+      }
+    ]
+  },
+  {
+    "id": "monster_020",
+    "name": "Yêu Thú 20",
+    "realm": 5,
+    "hp": 1700,
+    "atk": 170,
+    "def": 85,
+    "spd": 5,
+    "expReward": 3100,
+    "goldReward": 220,
+    "dropTable": [
+      {
+        "itemId": "item_020",
+        "rate": 0.25
+      }
+    ]
+  },
+  {
+    "id": "monster_021",
+    "name": "Yêu Thú 21",
+    "realm": 5,
+    "hp": 1780,
+    "atk": 178,
+    "def": 89,
+    "spd": 6,
+    "expReward": 3250,
+    "goldReward": 230,
+    "dropTable": [
+      {
+        "itemId": "item_021",
+        "rate": 0.25
+      }
+    ]
+  },
+  {
+    "id": "monster_022",
+    "name": "Yêu Thú 22",
+    "realm": 6,
+    "hp": 1860,
+    "atk": 186,
+    "def": 93,
+    "spd": 7,
+    "expReward": 3400,
+    "goldReward": 240,
+    "dropTable": [
+      {
+        "itemId": "item_022",
+        "rate": 0.25
+      }
+    ]
+  },
+  {
+    "id": "monster_023",
+    "name": "Yêu Thú 23",
+    "realm": 6,
+    "hp": 1940,
+    "atk": 194,
+    "def": 97,
+    "spd": 8,
+    "expReward": 3550,
+    "goldReward": 250,
+    "dropTable": [
+      {
+        "itemId": "item_023",
+        "rate": 0.25
+      }
+    ]
+  },
+  {
+    "id": "monster_024",
+    "name": "Yêu Thú 24",
+    "realm": 6,
+    "hp": 2020,
+    "atk": 202,
+    "def": 101,
+    "spd": 9,
+    "expReward": 3700,
+    "goldReward": 260,
+    "dropTable": [
+      {
+        "itemId": "item_024",
+        "rate": 0.25
+      }
+    ]
+  },
+  {
+    "id": "monster_025",
+    "name": "Yêu Thú 25",
+    "realm": 6,
+    "hp": 2100,
+    "atk": 210,
+    "def": 105,
+    "spd": 10,
+    "expReward": 3850,
+    "goldReward": 270,
+    "dropTable": [
+      {
+        "itemId": "item_025",
+        "rate": 0.25
+      }
+    ]
+  },
+  {
+    "id": "monster_026",
+    "name": "Yêu Thú 26",
+    "realm": 7,
+    "hp": 2180,
+    "atk": 218,
+    "def": 109,
+    "spd": 11,
+    "expReward": 4000,
+    "goldReward": 280,
+    "dropTable": [
+      {
+        "itemId": "item_026",
+        "rate": 0.25
+      }
+    ]
+  },
+  {
+    "id": "monster_027",
+    "name": "Yêu Thú 27",
+    "realm": 7,
+    "hp": 2260,
+    "atk": 226,
+    "def": 113,
+    "spd": 12,
+    "expReward": 4150,
+    "goldReward": 290,
+    "dropTable": [
+      {
+        "itemId": "item_027",
+        "rate": 0.25
+      }
+    ]
+  },
+  {
+    "id": "monster_028",
+    "name": "Yêu Thú 28",
+    "realm": 7,
+    "hp": 2340,
+    "atk": 234,
+    "def": 117,
+    "spd": 13,
+    "expReward": 4300,
+    "goldReward": 300,
+    "dropTable": [
+      {
+        "itemId": "item_028",
+        "rate": 0.25
+      }
+    ]
+  },
+  {
+    "id": "monster_029",
+    "name": "Yêu Thú 29",
+    "realm": 7,
+    "hp": 2420,
+    "atk": 242,
+    "def": 121,
+    "spd": 14,
+    "expReward": 4450,
+    "goldReward": 310,
+    "dropTable": [
+      {
+        "itemId": "item_029",
+        "rate": 0.25
+      }
+    ]
+  },
+  {
+    "id": "monster_030",
+    "name": "Yêu Thú 30",
+    "realm": 8,
+    "hp": 2500,
+    "atk": 250,
+    "def": 125,
+    "spd": 5,
+    "expReward": 4600,
+    "goldReward": 320,
+    "dropTable": [
+      {
+        "itemId": "item_030",
+        "rate": 0.25
+      }
+    ]
+  }
+]

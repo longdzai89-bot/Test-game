@@ -1,0 +1,1 @@
+const Table=require("cli-table3");exports.printTable=(headers,rows)=>console.log(new Table({head:headers}).toString()+("\n"));exports.printKV=o=>console.log(new Table({head:["Field","Value"],colWidths:[24,70]}).toString());

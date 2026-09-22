@@ -1,0 +1,1 @@
+import {Card} from "antd";export default function Battles(){return <Card title="Admin · Battles"><p>Quản trị Battles.</p></Card>}

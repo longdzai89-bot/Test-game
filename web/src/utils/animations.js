@@ -1,0 +1,1 @@
+export const fadeIn={initial:{opacity:0},animate:{opacity:1}};export const slideUp={initial:{opacity:0,y:20},animate:{opacity:1,y:0}};export const scale={initial:{scale:.9},animate:{scale:1}};

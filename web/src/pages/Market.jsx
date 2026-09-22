@@ -1,0 +1,1 @@
+export default function Market(){return <section><h1>Market</h1><p>Giao diện Market sẵn sàng kết nối API.</p></section>}

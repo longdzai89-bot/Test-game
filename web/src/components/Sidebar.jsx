@@ -1,0 +1,1 @@
+export default function Sidebar(){return <nav style={{padding:16}}>Nhân vật · Tu luyện · Chiến đấu · Bí cảnh · Tông môn · Chợ · Linh thú · Nhiệm vụ · BXH</nav>}

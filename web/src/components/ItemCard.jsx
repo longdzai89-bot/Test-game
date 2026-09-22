@@ -1,0 +1,1 @@
+export default function ItemCard({item}){return <article><b>{item?.name||'Item'}</b><div>{item?.rarity||'common'}</div></article>}

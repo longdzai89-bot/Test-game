@@ -1,0 +1,1 @@
+exports.int=(v,d=0)=>Number.isFinite(Number(v))?Number(v):d;exports.bool=v=>String(v)==="true";

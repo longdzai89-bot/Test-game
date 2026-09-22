@@ -1,0 +1,1 @@
+import {Card} from "antd";export default function Sects(){return <Card title="Admin · Sects"><p>Quản trị Sects.</p></Card>}

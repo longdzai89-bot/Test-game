@@ -1,0 +1,1 @@
+export default function ExpBar({value=0,max=1}){return <div><div style={{width:'100%',height:10,background:'#222',borderRadius:10}}><div style={{width:`${Math.min(100,value/max*100)}%`,height:'100%',background:'linear-gradient(90deg,#7c3aed,#f59e0b)',borderRadius:10}}/></div></div>}

@@ -1,0 +1,1 @@
+const quests=require("../data/quests.json");function getAvailable(character){return quests.filter(q=>q.realmRequired<=character.realm)}function checkComplete(){return false}function rewardQuest(character,quest){character.exp+=quest.rewards?.exp||0;character.gold+=quest.rewards?.gold||0;return character}module.exports={getAvailable,checkComplete,rewardQuest};

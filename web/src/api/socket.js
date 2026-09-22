@@ -1,0 +1,1 @@
+import {io} from "socket.io-client";export const connectSocket=token=>io(import.meta.env.VITE_SOCKET_URL||"http://localhost:3001",{auth:{token}});

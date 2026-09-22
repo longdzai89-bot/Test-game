@@ -1,0 +1,2 @@
+const {verify}=require("../utils/jwt"); const User=require("../models/User");
+module.exports=async function auth(req,res,next){try{const h=req.headers.authorization||""; if(!h.startsWith("Bearer ")) return res.status(401).json({success:false,message:"Missing token"}); const p=verify(h.slice(7)); const user=await User.findById(p.sub); if(!user||user.banned)return res.status(401).json({success:false,message:"Unauthorized"}); req.user=user; next();}catch(e){res.status(401).json({success:false,message:"Invalid token"});}};

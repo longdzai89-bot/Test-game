@@ -1,0 +1,1 @@
+const Sect=require("../models/Sect");async function list(){return Sect.find().populate("leaderId","username")}module.exports={list};

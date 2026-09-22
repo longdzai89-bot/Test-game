@@ -1,0 +1,1 @@
+export default function SkillButton({name,onClick}){return <button onClick={onClick}>{name}</button>}

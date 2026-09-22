@@ -1,0 +1,1 @@
+const pets=require("../data/pets.json");function list(){return pets}function capture(id){return pets.find(x=>x.id===id)}module.exports={list,capture};

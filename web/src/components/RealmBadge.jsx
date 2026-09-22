@@ -1,0 +1,1 @@
+export default function RealmBadge({realm=1,stage=1}){return <span>✨ Cảnh giới {realm} · tầng {stage}</span>}

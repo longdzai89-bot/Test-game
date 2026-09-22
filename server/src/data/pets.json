@@ -1,0 +1,242 @@
+[
+  {
+    "id": "pet_01",
+    "name": "Linh Thú 1",
+    "rarity": "common",
+    "skills": [
+      "skill_kiếm_1",
+      "skill_kiếm_2"
+    ],
+    "statBonus": {
+      "atk": 3,
+      "def": 2,
+      "hp": 20
+    },
+    "captureRate": 0.43,
+    "description": "Linh thú đồng hành."
+  },
+  {
+    "id": "pet_02",
+    "name": "Linh Thú 2",
+    "rarity": "rare",
+    "skills": [
+      "skill_kiếm_2",
+      "skill_kiếm_3"
+    ],
+    "statBonus": {
+      "atk": 6,
+      "def": 4,
+      "hp": 40
+    },
+    "captureRate": 0.41000000000000003,
+    "description": "Linh thú đồng hành."
+  },
+  {
+    "id": "pet_03",
+    "name": "Linh Thú 3",
+    "rarity": "epic",
+    "skills": [
+      "skill_kiếm_3",
+      "skill_kiếm_4"
+    ],
+    "statBonus": {
+      "atk": 9,
+      "def": 6,
+      "hp": 60
+    },
+    "captureRate": 0.39,
+    "description": "Linh thú đồng hành."
+  },
+  {
+    "id": "pet_04",
+    "name": "Linh Thú 4",
+    "rarity": "legendary",
+    "skills": [
+      "skill_kiếm_4",
+      "skill_kiếm_5"
+    ],
+    "statBonus": {
+      "atk": 12,
+      "def": 8,
+      "hp": 80
+    },
+    "captureRate": 0.37,
+    "description": "Linh thú đồng hành."
+  },
+  {
+    "id": "pet_05",
+    "name": "Linh Thú 5",
+    "rarity": "common",
+    "skills": [
+      "skill_kiếm_5",
+      "skill_phép_1"
+    ],
+    "statBonus": {
+      "atk": 15,
+      "def": 10,
+      "hp": 100
+    },
+    "captureRate": 0.35,
+    "description": "Linh thú đồng hành."
+  },
+  {
+    "id": "pet_06",
+    "name": "Linh Thú 6",
+    "rarity": "rare",
+    "skills": [
+      "skill_phép_1",
+      "skill_phép_2"
+    ],
+    "statBonus": {
+      "atk": 18,
+      "def": 12,
+      "hp": 120
+    },
+    "captureRate": 0.33,
+    "description": "Linh thú đồng hành."
+  },
+  {
+    "id": "pet_07",
+    "name": "Linh Thú 7",
+    "rarity": "epic",
+    "skills": [
+      "skill_phép_2",
+      "skill_phép_3"
+    ],
+    "statBonus": {
+      "atk": 21,
+      "def": 14,
+      "hp": 140
+    },
+    "captureRate": 0.31,
+    "description": "Linh thú đồng hành."
+  },
+  {
+    "id": "pet_08",
+    "name": "Linh Thú 8",
+    "rarity": "legendary",
+    "skills": [
+      "skill_phép_3",
+      "skill_phép_4"
+    ],
+    "statBonus": {
+      "atk": 24,
+      "def": 16,
+      "hp": 160
+    },
+    "captureRate": 0.29000000000000004,
+    "description": "Linh thú đồng hành."
+  },
+  {
+    "id": "pet_09",
+    "name": "Linh Thú 9",
+    "rarity": "common",
+    "skills": [
+      "skill_phép_4",
+      "skill_phép_5"
+    ],
+    "statBonus": {
+      "atk": 27,
+      "def": 18,
+      "hp": 180
+    },
+    "captureRate": 0.27,
+    "description": "Linh thú đồng hành."
+  },
+  {
+    "id": "pet_10",
+    "name": "Linh Thú 10",
+    "rarity": "rare",
+    "skills": [
+      "skill_phép_5",
+      "skill_thủ_1"
+    ],
+    "statBonus": {
+      "atk": 30,
+      "def": 20,
+      "hp": 200
+    },
+    "captureRate": 0.25,
+    "description": "Linh thú đồng hành."
+  },
+  {
+    "id": "pet_11",
+    "name": "Linh Thú 11",
+    "rarity": "epic",
+    "skills": [
+      "skill_thủ_1",
+      "skill_thủ_2"
+    ],
+    "statBonus": {
+      "atk": 33,
+      "def": 22,
+      "hp": 220
+    },
+    "captureRate": 0.23,
+    "description": "Linh thú đồng hành."
+  },
+  {
+    "id": "pet_12",
+    "name": "Linh Thú 12",
+    "rarity": "legendary",
+    "skills": [
+      "skill_thủ_2",
+      "skill_thủ_3"
+    ],
+    "statBonus": {
+      "atk": 36,
+      "def": 24,
+      "hp": 240
+    },
+    "captureRate": 0.21000000000000002,
+    "description": "Linh thú đồng hành."
+  },
+  {
+    "id": "pet_13",
+    "name": "Linh Thú 13",
+    "rarity": "common",
+    "skills": [
+      "skill_thủ_3",
+      "skill_thủ_4"
+    ],
+    "statBonus": {
+      "atk": 39,
+      "def": 26,
+      "hp": 260
+    },
+    "captureRate": 0.19,
+    "description": "Linh thú đồng hành."
+  },
+  {
+    "id": "pet_14",
+    "name": "Linh Thú 14",
+    "rarity": "rare",
+    "skills": [
+      "skill_thủ_4",
+      "skill_thủ_5"
+    ],
+    "statBonus": {
+      "atk": 42,
+      "def": 28,
+      "hp": 280
+    },
+    "captureRate": 0.16999999999999998,
+    "description": "Linh thú đồng hành."
+  },
+  {
+    "id": "pet_15",
+    "name": "Linh Thú 15",
+    "rarity": "epic",
+    "skills": [
+      "skill_thủ_5",
+      "skill_hồi_1"
+    ],
+    "statBonus": {
+      "atk": 45,
+      "def": 30,
+      "hp": 300
+    },
+    "captureRate": 0.15000000000000002,
+    "description": "Linh thú đồng hành."
+  }
+]

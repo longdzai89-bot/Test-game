@@ -1,0 +1,182 @@
+[
+  {
+    "id": "dungeon_01",
+    "name": "Bí Cảnh 1",
+    "realmRequired": 1,
+    "floors": 6,
+    "monsters": [
+      "monster_001",
+      "monster_002"
+    ],
+    "bossId": "monster_003",
+    "rewards": [
+      {
+        "type": "gold",
+        "amount": 1000
+      }
+    ],
+    "cooldown": 1
+  },
+  {
+    "id": "dungeon_02",
+    "name": "Bí Cảnh 2",
+    "realmRequired": 2,
+    "floors": 7,
+    "monsters": [
+      "monster_002",
+      "monster_003"
+    ],
+    "bossId": "monster_005",
+    "rewards": [
+      {
+        "type": "gold",
+        "amount": 2000
+      }
+    ],
+    "cooldown": 2
+  },
+  {
+    "id": "dungeon_03",
+    "name": "Bí Cảnh 3",
+    "realmRequired": 3,
+    "floors": 8,
+    "monsters": [
+      "monster_003",
+      "monster_004"
+    ],
+    "bossId": "monster_007",
+    "rewards": [
+      {
+        "type": "gold",
+        "amount": 3000
+      }
+    ],
+    "cooldown": 3
+  },
+  {
+    "id": "dungeon_04",
+    "name": "Bí Cảnh 4",
+    "realmRequired": 4,
+    "floors": 9,
+    "monsters": [
+      "monster_004",
+      "monster_005"
+    ],
+    "bossId": "monster_009",
+    "rewards": [
+      {
+        "type": "gold",
+        "amount": 4000
+      }
+    ],
+    "cooldown": 4
+  },
+  {
+    "id": "dungeon_05",
+    "name": "Bí Cảnh 5",
+    "realmRequired": 5,
+    "floors": 10,
+    "monsters": [
+      "monster_005",
+      "monster_006"
+    ],
+    "bossId": "monster_011",
+    "rewards": [
+      {
+        "type": "gold",
+        "amount": 5000
+      }
+    ],
+    "cooldown": 5
+  },
+  {
+    "id": "dungeon_06",
+    "name": "Bí Cảnh 6",
+    "realmRequired": 6,
+    "floors": 5,
+    "monsters": [
+      "monster_006",
+      "monster_007"
+    ],
+    "bossId": "monster_013",
+    "rewards": [
+      {
+        "type": "gold",
+        "amount": 6000
+      }
+    ],
+    "cooldown": 6
+  },
+  {
+    "id": "dungeon_07",
+    "name": "Bí Cảnh 7",
+    "realmRequired": 7,
+    "floors": 6,
+    "monsters": [
+      "monster_007",
+      "monster_008"
+    ],
+    "bossId": "monster_015",
+    "rewards": [
+      {
+        "type": "gold",
+        "amount": 7000
+      }
+    ],
+    "cooldown": 7
+  },
+  {
+    "id": "dungeon_08",
+    "name": "Bí Cảnh 8",
+    "realmRequired": 8,
+    "floors": 7,
+    "monsters": [
+      "monster_008",
+      "monster_009"
+    ],
+    "bossId": "monster_017",
+    "rewards": [
+      {
+        "type": "gold",
+        "amount": 8000
+      }
+    ],
+    "cooldown": 8
+  },
+  {
+    "id": "dungeon_09",
+    "name": "Bí Cảnh 9",
+    "realmRequired": 9,
+    "floors": 8,
+    "monsters": [
+      "monster_009",
+      "monster_010"
+    ],
+    "bossId": "monster_019",
+    "rewards": [
+      {
+        "type": "gold",
+        "amount": 9000
+      }
+    ],
+    "cooldown": 9
+  },
+  {
+    "id": "dungeon_10",
+    "name": "Bí Cảnh 10",
+    "realmRequired": 9,
+    "floors": 9,
+    "monsters": [
+      "monster_010",
+      "monster_011"
+    ],
+    "bossId": "monster_021",
+    "rewards": [
+      {
+        "type": "gold",
+        "amount": 10000
+      }
+    ],
+    "cooldown": 10
+  }
+]

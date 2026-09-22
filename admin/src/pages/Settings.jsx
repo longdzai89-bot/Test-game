@@ -1,0 +1,1 @@
+import {Card} from "antd";export default function Settings(){return <Card title="Admin · Settings"><p>Quản trị Settings.</p></Card>}

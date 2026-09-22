@@ -1,0 +1,1 @@
+export default function Dungeon(){return <section><h1>Dungeon</h1><p>Giao diện Dungeon sẵn sàng kết nối API.</p></section>}

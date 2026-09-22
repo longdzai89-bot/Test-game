@@ -1,0 +1,1 @@
+export default function PasswordStrength({password=""}){let n=(password.length>7)+(/[A-Z]/.test(password))+( /\d/.test(password))+( /[^A-Za-z0-9]/.test(password));return <div>Độ mạnh: {"▮".repeat(n)}{"▯".repeat(4-n)}</div>}

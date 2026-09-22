@@ -1,0 +1,1 @@
+import {Card} from "antd";export default function Logs(){return <Card title="Admin · Logs"><p>Quản trị Logs.</p></Card>}

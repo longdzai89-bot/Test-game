@@ -1,0 +1,1 @@
+const dungeons=require("../data/dungeons.json");function list(){return dungeons}function get(id){return dungeons.find(x=>x.id===id)}module.exports={list,get};

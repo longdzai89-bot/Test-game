@@ -1,0 +1,1 @@
+export default function Character(){return <section><h1>Character</h1><p>Giao diện Character sẵn sàng kết nối API.</p></section>}

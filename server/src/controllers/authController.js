@@ -1,0 +1,7 @@
+const User=require("../models/User");const Character=require("../models/Character");const {hash,compare}=require("../utils/hash");const {sign,refresh}=require("../utils/jwt");const {success,error}=require("../utils/response");
+exports.register=async(req,res)=>{try{const {username,email,password}=req.body;const u=await User.create({username,email,passwordHash:await hash(password)});await Character.create({userId:u._id,name:username});return success(res,{id:u._id,username:u.username},"Registered",201)}catch(e){return error(res,400,e.message)}};
+exports.login=async(req,res)=>{try{const u=await User.findOne({email:req.body.email}).select("+passwordHash");if(!u||!(await compare(req.body.password,u.passwordHash)))return error(res,401,"Invalid credentials");u.lastLogin=new Date();if(req.body.fcmToken)u.fcmToken=req.body.fcmToken;await u.save();return success(res,{token:sign({sub:u._id.toString()}),refreshToken:refresh({sub:u._id.toString()}),user:{id:u._id,username:u.username,role:u.role}},"Logged in")}catch(e){return error(res,500,e.message)}};
+exports.me=async(req,res)=>success(res,{user:req.user});
+exports.logout=async(req,res)=>success(res,null,"Logged out");
+exports.refreshToken=async(req,res)=>success(res,{message:"Use a valid refresh token in production implementation"});
+exports.changePassword=async(req,res)=>{try{req.user.passwordHash=await hash(req.body.password);await req.user.save();return success(res,null,"Password changed")}catch(e){return error(res,400,e.message)}};

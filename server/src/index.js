@@ -1,0 +1,10 @@
+const http=require("http"),express=require("express");
+const env=require("./config/env"),{connectDB}=require("./config/db"),cors=require("./config/cors");
+const logger=require("./config/logger"),requestLogger=require("./middleware/logger"),errorHandler=require("./middleware/errorHandler");
+const {initSocket}=require("./services/socket");
+const app=express();app.use(express.json({limit:"1mb"}));app.use(cors);app.use(requestLogger);
+app.get("/",(req,res)=>res.json({name:"Tu Tiên Online API",status:"ok"}));
+for(const [name,path] of Object.entries({auth:"/api/auth",character:"/api/character",cultivation:"/api/cultivation",battle:"/api/battle",dungeon:"/api/dungeon",sect:"/api/sect",market:"/api/market",pet:"/api/pet",quest:"/api/quest",ranking:"/api/ranking",notification:"/api/notification",admin:"/api/admin"}))app.use(path,require(`./routes/${name}`));
+app.use(require("./routes/health"));app.use(errorHandler);
+(async()=>{try{await connectDB();const server=http.createServer(app);initSocket(server);server.listen(env.port,"0.0.0.0",()=>logger.info(`Server listening on ${env.port}`));const shutdown=async()=>{server.close();const mongoose=require("mongoose");await mongoose.connection.close();process.exit(0)};process.on("SIGINT",shutdown);process.on("SIGTERM",shutdown)}catch(e){logger.error(e);process.exit(1)}})();
+module.exports=app;

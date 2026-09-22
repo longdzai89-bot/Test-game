@@ -1,0 +1,5 @@
+const Market=require("../models/Market");
+async function listItem(character,itemId,qty,price){const x=character.inventory.find(i=>i.itemId===itemId&&i.qty>=qty);if(!x)throw Object.assign(new Error("Not enough item"),{status:400});x.qty-=qty;await character.save();return Market.create({sellerId:character.userId,itemId,qty,price});}
+async function buyItem(buyer,id){const listing=await Market.findOne({_id:id,sold:false});if(!listing)throw Object.assign(new Error("Listing unavailable"),{status:404});if(buyer.gold<listing.price)throw Object.assign(new Error("Not enough gold"),{status:400});buyer.gold-=listing.price;let x=buyer.inventory.find(i=>i.itemId===listing.itemId);if(x)x.qty+=listing.qty;else buyer.inventory.push({itemId:listing.itemId,qty:listing.qty});listing.sold=true;await Promise.all([buyer.save(),listing.save()]);return listing;}
+async function cancelListing(sellerId,id){return Market.findOneAndUpdate({_id:id,sellerId,sold:false},{sold:true},{new:true});}
+module.exports={listItem,buyItem,cancelListing};

@@ -1,0 +1,1 @@
+export default function BattleLog({logs=[]}){return <div>{logs.map((x,i)=><div key={i}>{JSON.stringify(x)}</div>)}</div>}

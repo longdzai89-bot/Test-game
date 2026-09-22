@@ -1,0 +1,1 @@
+import {create} from "zustand";export const useSocketStore=create(set=>({data:null,setData:data=>set({data})}));

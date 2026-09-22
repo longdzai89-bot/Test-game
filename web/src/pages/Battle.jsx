@@ -1,0 +1,1 @@
+export default function Battle(){return <section><h1>Battle</h1><p>Giao diện Battle sẵn sàng kết nối API.</p></section>}

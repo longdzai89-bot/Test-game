@@ -1,0 +1,1 @@
+import {Card} from "antd";export default function Characters(){return <Card title="Admin · Characters"><p>Quản trị Characters.</p></Card>}

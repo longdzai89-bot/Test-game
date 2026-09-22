@@ -1,0 +1,1 @@
+export default function Quest(){return <section><h1>Quest</h1><p>Giao diện Quest sẵn sàng kết nối API.</p></section>}

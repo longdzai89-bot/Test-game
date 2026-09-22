@@ -1,0 +1,1 @@
+export default function Navbar(){return <header style={{padding:16}}>☯ Tu Tiên Online</header>}

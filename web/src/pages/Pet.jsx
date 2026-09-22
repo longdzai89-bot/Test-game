@@ -1,0 +1,1 @@
+export default function Pet(){return <section><h1>Pet</h1><p>Giao diện Pet sẵn sàng kết nối API.</p></section>}

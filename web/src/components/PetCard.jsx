@@ -1,0 +1,1 @@
+export default function PetCard({pet}){return <article>🐉 {pet?.name||'Linh thú'}</article>}

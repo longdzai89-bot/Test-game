@@ -1,0 +1,9 @@
+export const assetRoot="/assets";
+export const getRealmImage=r=>`${assetRoot}/realms/${r}.png`;
+export const getItemImage=id=>`${assetRoot}/items/${id}.png`;
+export const getPetImage=id=>`${assetRoot}/pets/${id}.png`;
+export const getZoneBackground=id=>`${assetRoot}/backgrounds/${id}.jpg`;
+export const getZoneTerrain=id=>`${assetRoot}/terrain/${id}.png`;
+export const getPlayerSprite=()=>`${assetRoot}/characters/player-male.png`;
+export const getAppIcon=()=>`${assetRoot}/app/icon-1024.png`;
+export const getLogo=()=>`${assetRoot}/logo/logo.png`;

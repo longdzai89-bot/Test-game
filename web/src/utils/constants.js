@@ -1,0 +1,1 @@
+export const REALM_COLORS=["#8b5cf6","#6366f1","#06b6d4","#10b981","#eab308","#f97316","#ef4444","#ec4899","#f43f5e"];export const RARITY_COLORS={common:"#aaa",rare:"#3b82f6",epic:"#a855f7",legendary:"#f59e0b"};export const SKILL_ICONS={kiếm:"⚔️",phép:"🔮",thủ:"🛡️",hồi:"💚"};

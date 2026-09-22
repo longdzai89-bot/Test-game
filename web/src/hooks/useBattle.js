@@ -1,0 +1,1 @@
+import {useEffect} from "react";export default function useBattle(){useEffect(()=>{},[]);return null;}

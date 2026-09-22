@@ -1,0 +1,1 @@
+export default function StatCard(props){return <div>{props.children}</div>}

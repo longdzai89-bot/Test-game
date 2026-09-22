@@ -1,0 +1,3 @@
+const router=require("express").Router();const auth=require("../middleware/auth");const admin=require("../middleware/adminOnly");const c=require("../controllers/adminController");router.use(auth,admin);
+router.get("/users",c.index);router.get("/users/:id",c.get);router.put("/users/:id/ban",c.ban);router.put("/users/:id/unban",c.unban);router.put("/users/:id/role",c.role);router.delete("/users/:id",c.remove);
+router.get("/characters",c.characters);router.put("/characters/:id",c.update);router.post("/items/buff",c.buff);router.post("/notification/send",c.send);router.get("/logs",c.logs);router.post("/server/maintenance",c.maintenance);router.get("/server/status",c.serverStatus);router.post("/server/broadcast",c.broadcast);module.exports=router;

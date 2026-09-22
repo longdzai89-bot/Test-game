@@ -1,0 +1,1 @@
+const chalk=require("chalk");const c={success:chalk.green,error:chalk.red,warn:chalk.yellow,info:chalk.cyan,title:chalk.magenta,bold:chalk.bold,dim:chalk.dim};function printHeader(t,s=""){console.log(`\n${chalk.magenta("=".repeat(60))}\n${chalk.bold(t)}\n${chalk.dim(s)}\n${chalk.magenta("=".repeat(60))}`)}module.exports={c,printHeader};

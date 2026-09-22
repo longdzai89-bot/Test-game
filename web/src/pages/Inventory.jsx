@@ -1,0 +1,1 @@
+export default function Inventory(){return <section><h1>Inventory</h1><p>Giao diện Inventory sẵn sàng kết nối API.</p></section>}
