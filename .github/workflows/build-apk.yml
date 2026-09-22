@@ -1,28 +1,46 @@
 name: Build APK
+
 on:
-  push: {branches: [main]}
+  push:
+    branches:
+      - main
   workflow_dispatch:
-    inputs:
-      icon_url: {description: Optional icon URL, required: false, default: ""}
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
+
       - uses: actions/setup-node@v4
-        with: {node-version: 20, cache: npm}
-      - run: npm install
-      - run: npm run build --workspace web
-      - name: Optional icon
-        if: ${{ github.event.inputs.icon_url != '' }}
-        run: curl -L "${{ github.event.inputs.icon_url }}" -o apk/resources/icon.png
-      - run: cd apk && npx capacitor-assets generate --android || true
-      - run: cd apk && npx cap add android || true
-      - run: cd apk && npx cap sync android
-      - uses: actions/setup-java@v4
-        with: {distribution: temurin, java-version: '17'}
-      - run: cd apk/android && chmod +x gradlew && ./gradlew assembleDebug
-      - uses: actions/upload-artifact@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm install --include=optional
+
+      - name: Build web
+        run: npm run build --workspace web
+
+      - name: Add Android platform
+        run: cd apk && npx cap add android || true
+
+      - name: Sync Capacitor
+        run: cd apk && npx cap sync android
+
+      - name: Setup Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - name: Build APK
+        run: cd apk/android && chmod +x gradlew && ./gradlew assembleDebug
+
+      - name: Upload APK
+        uses: actions/upload-artifact@v4
         with:
           name: tutien-debug-apk
           path: apk/android/app/build/outputs/apk/debug/*.apk
